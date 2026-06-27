@@ -1,27 +1,23 @@
 // Local Database with YouTube Embed URLs
+// Local Database with SoundCloud Embed Player URLs
 const songDatabase = {
     happy: [
-        { title: "Don't Start Now - Dua Lipa", embedUrl: "https://www.youtube.com/embed/oygrmJFKYZY" },
-        { title: "Dynamite - BTS", embedUrl: "https://www.youtube.com/embed/gdZLi9oWNZg" },
-        { title: "Happy - Pharrell Williams", embedUrl: "https://www.youtube.com/embed/ZbZSe6N_BXs" }
+        { title: "Surfaces - Sunday Best", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/561707259&color=%231db954&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false" },
+        { title: "Pharrell Williams - Happy", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125345700&color=%231db954&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false" }
     ],
     sad: [
-        { title: "Someone Like You - Adele", embedUrl: "https://www.youtube.com/embed/hLQl3WQQoQ0" },
-        { title: "Fix You - Coldplay", embedUrl: "https://www.youtube.com/embed/k4V3Mo61fJM" },
-        { title: "Stay - Rihanna", embedUrl: "https://www.youtube.com/embed/JF8BRnvnsR8" }
+        { title: "Coldplay - Fix You", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/114144415&color=%231db954&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false" },
+        { title: "Passenger - Let Her Go", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/92224734&color=%231db954&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false" }
     ],
     energetic: [
-        { title: "Blinding Lights - The Weeknd", embedUrl: "https://www.youtube.com/embed/4NRXx6U8ABQ" },
-        { title: "Lose Yourself - Eminem", embedUrl: "https://www.youtube.com/embed/_Yhyp-_hK3Q" },
-        { title: "Till I Collapse - Eminem", embedUrl: "https://www.youtube.com/embed/ytQ5CYE1VZw" }
+        { title: "The Weeknd - Blinding Lights", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/720364906&color=%231db954&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false" },
+        { title: "Eminem - Till I Collapse", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/17234320&color=%231db954&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false" }
     ],
     relaxed: [
-        { title: "Weightless - Marconi Union", embedUrl: "https://www.youtube.com/embed/UfcAVejsvU0" },
-        { title: "Strawberry Swing - Coldplay", embedUrl: "https://www.youtube.com/embed/isvXvHj5p3c" },
-        { title: "Come Away With Me - Norah Jones", embedUrl: "https://www.youtube.com/embed/lbjZPfXFFuE" }
+        { title: "Marconi Union - Weightless", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/33894236&color=%231db954&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false" },
+        { title: "Norah Jones - Come Away With Me", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/246473179&color=%231db954&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false" }
     ]
 };
-
 const chatBox = document.getElementById("chatBox");
 const userInput = document.getElementById("userInput");
 const sendBtn = document.getElementById("sendBtn");
