@@ -1,17 +1,15 @@
-// A vastly expanded mapping dictionary for smart matching
-// Bulletproof Mobile-Friendly Spotify Embed Database
+// A database mapping moods to optimized YouTube search queries
 const searchDatabase = {
-    happy: "https://open.spotify.com/embed/playlist/37i9dQZF1DXdPec76w2jVD?utm_source=generator",
-    sad: "https://open.spotify.com/embed/playlist/37i9dQZF1DX3YSRSy6vPhw?utm_source=generator",
-    energetic: "https://open.spotify.com/embed/playlist/37i9dQZF1DX76t638V6eg8?utm_source=generator",
-    relaxed: "https://open.spotify.com/embed/playlist/37i9dQZF1DX889v67v6H6b?utm_source=generator",
-    
-    // Sub-genres
-    old: "https://open.spotify.com/embed/playlist/37i9dQZF1DX0Tk9Y9876wZ?utm_source=generator", 
-    hindi: "https://open.spotify.com/embed/playlist/37i9dQZF1DX0XU6869NWhb?utm_source=generator", 
-    punjabi: "https://open.spotify.com/embed/playlist/37i9dQZF1DX5cZuAhl9GY4?utm_source=generator", 
-    lofi: "https://open.spotify.com/embed/playlist/37i9dQZF1DWWQRwui0EXPn?utm_source=generator" 
+    happy: "happy pop songs playlist",
+    sad: "sad hindi english songs mix",
+    energetic: "gym workout motivational music",
+    relaxed: "lofi chill beats live audio",
+    old: "90s classic bollywood retro hits",
+    hindi: "latest trending bollywood songs",
+    punjabi: "new punjabi dance hits",
+    lofi: "lofi study sleep lounge mix"
 };
+
 const chatBox = document.getElementById("chatBox");
 const userInput = document.getElementById("userInput");
 const sendBtn = document.getElementById("sendBtn");
@@ -21,7 +19,7 @@ window.onload = () => {
 };
 
 function startConversation() {
-    appendMessage("Hello! Choose a vibe below, or type exactly what kind of music/artist you want to search for!", "bot-msg");
+    appendMessage("Hello! Choose a vibe below, or type any artist/song you want to search for!", "bot-msg");
     createOptionChips(["😊 Happy", "😢 Sad", "⚡ Energetic", "🍃 Relaxed"], (selected) => {
         const mood = selected.replace(/[^\w\s]/gi, '').trim().toLowerCase();
         appendMessage(`I want something ${selected}`, "user-msg");
@@ -29,58 +27,57 @@ function startConversation() {
     });
 }
 
-// This handles manual user typing OR button clicks seamlessly
 function processSearch(queryText) {
     const cleanQuery = queryText.toLowerCase().trim();
-    let embedUrl = "";
+    let searchQuery = "";
     let displayTitle = "";
 
-    // 1. Smart Keyword Scanner
+    // 1. Check if it matches our presets
     if (cleanQuery.includes("happy") || cleanQuery.includes("joy")) {
-        embedUrl = searchDatabase.happy;
+        searchQuery = searchDatabase.happy;
         displayTitle = "Live Happy Vibes";
     } else if (cleanQuery.includes("sad") || cleanQuery.includes("cry") || cleanQuery.includes("low")) {
-        embedUrl = searchDatabase.sad;
+        searchQuery = searchDatabase.sad;
         displayTitle = "Melancholy Mix";
     } else if (cleanQuery.includes("energetic") || cleanQuery.includes("gym") || cleanQuery.includes("workout")) {
-        embedUrl = searchDatabase.energetic;
-        displayTitle = "High Energy Workout Core";
+        searchQuery = searchDatabase.energetic;
+        displayTitle = "High Energy Core";
     } else if (cleanQuery.includes("relax") || cleanQuery.includes("chill") || cleanQuery.includes("calm")) {
-        embedUrl = searchDatabase.relaxed;
+        searchQuery = searchDatabase.relaxed;
         displayTitle = "Chill Lounge Collective";
     } else if (cleanQuery.includes("old") || cleanQuery.includes("retro") || cleanQuery.includes("90s")) {
-        embedUrl = searchDatabase.old;
+        searchQuery = searchDatabase.old;
         displayTitle = "Classic Timeless Melodies";
     } else if (cleanQuery.includes("hindi") || cleanQuery.includes("bollywood")) {
-        embedUrl = searchDatabase.hindi;
+        searchQuery = searchDatabase.hindi;
         displayTitle = "Trending Bollywood";
     } else if (cleanQuery.includes("punjabi")) {
-        embedUrl = searchDatabase.punjabi;
+        searchQuery = searchDatabase.punjabi;
         displayTitle = "Powerhouse Punjabi Tracks";
     } else if (cleanQuery.includes("lofi") || cleanQuery.includes("sleep")) {
-        embedUrl = searchDatabase.lofi;
-        displayTitle = "Lofi Study Session";
+        searchQuery = searchDatabase.lofi;
+        displayTitle = "Lofi Session";
     } else {
-        // Fallback: If they type something totally random, generate a direct native Spotify Search landing card!
-        
-        embedUrl = `https://open.spotify.com/embed/screen/search?q=${encodeURIComponent(cleanQuery)}&utm_source=generator`;
-        displayTitle = `Real-time search results for: "${queryText}"`;
+        // Dynamic search query if they type anything else
+        searchQuery = cleanQuery;
+        displayTitle = `Search results for: "${queryText}"`;
     }
 
-    // 2. Render the interactive Results Deck
+    // 2. Formulate open search URL using YouTube's official embed query landing platform
+    const embedUrl = `https://www.youtube.com/embed?listType=search&list=${encodeURIComponent(searchQuery)}`;
+
     setTimeout(() => {
         const botResponse = `
             <div class="bot-recommendation">
                 <p>🔍 <strong>${displayTitle}</strong></p>
-                <p>Click on any song in the playlist below to instantly stream it:</p>
+                <p>Use the controls inside the video player player below to watch or skip tracks:</p>
                 <div class="video-wrapper">
-                    <iframe src="${embedUrl}" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe src="${embedUrl}" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                 </div>
             </div>
         `;
         appendMessage(botResponse, "bot-msg");
 
-        // Offer an instantaneous restart bridge
         setTimeout(() => {
             createOptionChips(["🔄 Search for something else"], () => {
                 startConversation();
