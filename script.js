@@ -1,17 +1,17 @@
 // A vastly expanded mapping dictionary for smart matching
+// Bulletproof Mobile-Friendly Spotify Embed Database
 const searchDatabase = {
-    happy: "https://open.spotify.com/embed/playlist/37i9dQZF1DXdPec76w2jVD",
-    sad: "https://open.spotify.com/embed/playlist/37i9dQZF1DX3YSRSy6vPhw",
-    energetic: "https://open.spotify.com/embed/playlist/37i9dQZF1DX76t638V6eg8",
-    relaxed: "https://open.spotify.com/embed/playlist/37i9dQZF1DX889v67v6H6b",
+    happy: "https://open.spotify.com/embed/playlist/37i9dQZF1DXdPec76w2jVD?utm_source=generator",
+    sad: "https://open.spotify.com/embed/playlist/37i9dQZF1DX3YSRSy6vPhw?utm_source=generator",
+    energetic: "https://open.spotify.com/embed/playlist/37i9dQZF1DX76t638V6eg8?utm_source=generator",
+    relaxed: "https://open.spotify.com/embed/playlist/37i9dQZF1DX889v67v6H6b?utm_source=generator",
     
-    // Custom sub-genres the user might manually type in
-    old: "https://open.spotify.com/embed/playlist/37i9dQZF1DX0Tk9Y9876wZ", // Retro Hits
-    hindi: "https://open.spotify.com/embed/playlist/37i9dQZF1DX0XU6869NWhb", // Bollywood
-    punjabi: "https://open.spotify.com/embed/playlist/37i9dQZF1DX5cZuAhl9GY4", // Punjabi Pop
-    lofi: "https://open.spotify.com/embed/playlist/37i9dQZF1DWWQRwui0EXPn" // Lofi Beats
+    // Sub-genres
+    old: "https://open.spotify.com/embed/playlist/37i9dQZF1DX0Tk9Y9876wZ?utm_source=generator", 
+    hindi: "https://open.spotify.com/embed/playlist/37i9dQZF1DX0XU6869NWhb?utm_source=generator", 
+    punjabi: "https://open.spotify.com/embed/playlist/37i9dQZF1DX5cZuAhl9GY4?utm_source=generator", 
+    lofi: "https://open.spotify.com/embed/playlist/37i9dQZF1DWWQRwui0EXPn?utm_source=generator" 
 };
-
 const chatBox = document.getElementById("chatBox");
 const userInput = document.getElementById("userInput");
 const sendBtn = document.getElementById("sendBtn");
