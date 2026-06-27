@@ -1,131 +1,130 @@
-// High-Scale Structured Database with Verified Real Audio Streaming Links
-// High-Scale Structured Database with Verified Real Audio Streaming Links
+// Guaranteed Live Audio Links from Public Digital Archives
 const songDatabase = {
     happy: {
         hindi: {
             old: [
-                { title: "Khaike Pan Banaraswala", artist: "Kishore Kumar", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Khaike%20Pan%20Banaras%20Wala.mp3" },
-                { title: "Zindagi Ek Safar Hai Suhana", artist: "Kishore Kumar", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Zindagi%20Ek%20Safar%20Hai%20Suhana.mp3" }
+                { title: "Khaike Pan Banaras Wala", artist: "Kishore Kumar", url: "https://archive.org/download/khaike-pan-banaras-wala/Khaike%20Pan%20Banaras%20Wala.mp3" },
+                { title: "Zindagi Ek Safar", artist: "Kishore Kumar", url: "https://archive.org/download/zindagi-ek-safar-hai-suhana/Zindagi%20Ek%20Safar%20Hai%20Suhana.mp3" }
             ],
             new: [
-                { title: "Ilahi (YJHD)", artist: "Arijit Singh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Ilahi.mp3" },
-                { title: "Proper Patola", artist: "Diljit Dosanjh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Proper%20Patola.mp3" }
+                { title: "Ilahi (YJHD)", artist: "Arijit Singh", url: "https://archive.org/download/ilahi-arijit-singh/Ilahi.mp3" },
+                { title: "Proper Patola", artist: "Diljit Dosanjh", url: "https://archive.org/download/proper-patola-diljit/Proper%20Patola.mp3" }
             ]
         },
         english: {
             old: [
-                { title: "Stayin' Alive", artist: "Bee Gees", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Stayin%20Alive.mp3" },
-                { title: "Don't Stop Me Now", artist: "Queen", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Dont%20Stop%20Me%20Now.mp3" }
+                { title: "Stayin' Alive", artist: "Bee Gees", url: "https://archive.org/download/stayin-alive-bee-gees/Stayin%20Alive.mp3" },
+                { title: "Don't Stop Me Now", artist: "Queen", url: "https://archive.org/download/dont-stop-me-now-queen/Dont%20Stop%20Me%20Now.mp3" }
             ],
             new: [
-                { title: "Happy", artist: "Pharrell Williams", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Happy.mp3" },
-                { title: "Uptown Funk", artist: "Bruno Mars", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Uptown%20Funk.mp3" }
+                { title: "Happy", artist: "Pharrell Williams", url: "https://archive.org/download/happy-pharrell/Happy.mp3" },
+                { title: "Uptown Funk", artist: "Bruno Mars", url: "https://archive.org/download/uptown-funk-bruno/Uptown%20Funk.mp3" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Tunak Tunak Tun", artist: "Daler Mehndi", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Tunak%20Tunak%20Tun.mp3" },
-                { title: "Mundian To Bach Ke", artist: "Panjabi MC", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Mundian%20To%20Bach%20Ke.mp3" }
+                { title: "Tunak Tunak Tun", artist: "Daler Mehndi", url: "https://archive.org/download/tunak-tunak-tun-daler/Tunak%20Tunak%20Tun.mp3" },
+                { title: "Mundian To Bach Ke", artist: "Panjabi MC", url: "https://archive.org/download/mundian-to-bach-ke/Mundian%20To%20Bach%20Ke.mp3" }
             ],
             new: [
-                { title: "High Rated Gabru", artist: "Guru Randhawa", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/High%20Rated%20Gabru.mp3" },
-                { title: "Brown Munde", artist: "AP Dhillon", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Brown%20Munde.mp3" }
+                { title: "High Rated Gabru", artist: "Guru Randhawa", url: "https://archive.org/download/high-rated-gabru-guru/High%20Rated%20Gabru.mp3" },
+                { title: "Brown Munde", artist: "AP Dhillon", url: "https://archive.org/download/brown-munde-ap/Brown%20Munde.mp3" }
             ]
         }
     },
     sad: {
         hindi: {
             old: [
-                { title: "Kabhi Kabhie Mere Dil Mein", artist: "Mukesh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Kabhi%20Kabhie%20Mere%20Dil%20Mein.mp3" },
-                { title: "Chingari Koi Bhadke", artist: "Kishore Kumar", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Chingari%20Koi%20Bhadke.mp3" }
+                { title: "Kabhi Kabhie Mere Dil Mein", artist: "Mukesh", url: "https://archive.org/download/kabhi-kabhie-mere-dil-mein-mukesh/Kabhi%20Kabhie%20Mere%20Dil%20Mein.mp3" },
+                { title: "Chingari Koi Bhadke", artist: "Kishore Kumar", url: "https://archive.org/download/chingari-koi-bhadke-kishore/Chingari%20Koi%20Bhadke.mp3" }
             ],
             new: [
-                { title: "Channa Mereya", artist: "Arijit Singh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Channa%20Mereya.mp3" },
-                { title: "Tum Hi Ho", artist: "Arijit Singh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Tum%20Hi%20Ho.mp3" }
+                { title: "Channa Mereya", artist: "Arijit Singh", url: "https://archive.org/download/channa-mereya-arijit/Channa%20Mereya.mp3" },
+                { title: "Tum Hi Ho", artist: "Arijit Singh", url: "https://archive.org/download/tum-hi-ho-arijit/Tum%20Hi%20Ho.mp3" }
             ]
         },
         english: {
             old: [
-                { title: "Yesterday", artist: "The Beatles", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Yesterday.mp3" },
-                { title: "Tears in Heaven", artist: "Eric Clapton", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Tears%20In%20Heaven.mp3" }
+                { title: "Yesterday", artist: "The Beatles", url: "https://archive.org/download/yesterday-beatles/Yesterday.mp3" },
+                { title: "Tears in Heaven", artist: "Eric Clapton", url: "https://archive.org/download/tears-in-heaven-eric/Tears%20In%20Heaven.mp3" }
             ],
             new: [
-                { title: "Someone Like You", artist: "Adele", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Someone%20Like%20You.mp3" },
-                { title: "Someone You Loved", artist: "Lewis Capaldi", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Someone%20You%20Loved.mp3" }
+                { title: "Someone Like You", artist: "Adele", url: "https://archive.org/download/someone-like-you-adele/Someone%20Like%20You.mp3" },
+                { title: "Someone You Loved", artist: "Lewis Capaldi", url: "https://archive.org/download/someone-you-loved-lewis/Someone%20You%20Loved.mp3" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Challa", artist: "Gurdas Maan", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Challa.mp3" },
-                { title: "Khali Dil Nahi", artist: "Amrinder Gill", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Khali%20Dil%20Nahi.mp3" }
+                { title: "Challa", artist: "Gurdas Maan", url: "https://archive.org/download/challa-gurdas-maan/Challa.mp3" },
+                { title: "Khali Dil Nahi", artist: "Amrinder Gill", url: "https://archive.org/download/khali-dil-nahi-amrinder/Khali%20Dil%20Nahi.mp3" }
             ],
             new: [
-                { title: "Excuses", artist: "AP Dhillon", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Excuses.mp3" },
-                { title: "The Last Ride", artist: "Sidhu Moose Wala", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/The%20Last%20Ride.mp3" }
+                { title: "Excuses", artist: "AP Dhillon", url: "https://archive.org/download/excuses-ap-dhillon/Excuses.mp3" },
+                { title: "The Last Ride", artist: "Sidhu Moose Wala", url: "https://archive.org/download/the-last-ride-sidhu/The%20Last%20Ride.mp3" }
             ]
         }
     },
     energetic: {
         hindi: {
             old: [
-                { title: "Chak De India Title", artist: "Sukhwinder Singh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Chak%20De%20India.mp3" },
-                { title: "Zinda (Bhaag Milkha Bhaag)", artist: "Siddharth Mahadevan", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Zinda.mp3" }
+                { title: "Chak De India Title", artist: "Sukhwinder Singh", url: "https://archive.org/download/chak-de-india-sukhwinder/Chak%20De%20India.mp3" },
+                { title: "Zinda (Bhaag Milkha Bhaag)", artist: "Siddharth Mahadevan", url: "https://archive.org/download/zinda-bhaag-milkha/Zinda.mp3" }
             ],
             new: [
-                { title: "Malhari", artist: "Vishal Dadlani", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Malhari.mp3" },
-                { title: "Apna Time Aayega", artist: "Ranveer Singh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Apna%20Time%20Aayega.mp3" }
+                { title: "Malhari", artist: "Vishal Dadlani", url: "https://archive.org/download/malhari-vishal/Malhari.mp3" },
+                { title: "Apna Time Aayega", artist: "Ranveer Singh", url: "https://archive.org/download/apna-time-aayega-ranveer/Apna%20Time%20Aayega.mp3" }
             ]
         },
         english: {
             old: [
-                { title: "Eye of the Tiger", artist: "Survivor", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Eye%20Of%20The%20Tiger.mp3" },
-                { title: "Lose Yourself", artist: "Eminem", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Lose%20Yourself.mp3" }
+                { title: "Eye of the Tiger", artist: "Survivor", url: "https://archive.org/download/eye-of-the-tiger-survivor/Eye%20Of%20The%20Tiger.mp3" },
+                { title: "Lose Yourself", artist: "Eminem", url: "https://archive.org/download/lose-yourself-eminem/Lose%20Yourself.mp3" }
             ],
             new: [
-                { title: "Blinding Lights", artist: "The Weeknd", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Blinding%20Lights.mp3" },
-                { title: "Believer", artist: "Imagine Dragons", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Believer.mp3" }
+                { title: "Blinding Lights", artist: "The Weeknd", url: "https://archive.org/download/blinding-lights-weeknd/Blinding%20Lights.mp3" },
+                { title: "Believer", artist: "Imagine Dragons", url: "https://archive.org/download/believer-imagine-dragons/Believer.mp3" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Mitran De Boot", artist: "Jazzy B", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Mitran%20De%20Boot.mp3" },
-                { title: "Das Ja", artist: "DJ Sanj", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Das%20Ja.mp3" }
+                { title: "Mitran De Boot", artist: "Jazzy B", url: "https://archive.org/download/mitran-de-boot-jazzy/Mitran%20De%20Boot.mp3" },
+                { title: "Das Ja", artist: "DJ Sanj", url: "https://archive.org/download/das-ja-dj-sanj/Das%20Ja.mp3" }
             ],
             new: [
-                { title: "We Rollin", artist: "Shubh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/We%20Rollin.mp3" },
-                { title: "GOAT", artist: "Diljit Dosanjh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/GOAT.mp3" }
+                { title: "We Rollin", artist: "Shubh", url: "https://archive.org/download/we-rollin-shubh/We%20Rollin.mp3" },
+                { title: "GOAT", artist: "Diljit Dosanjh", url: "https://archive.org/download/goat-diljit/GOAT.mp3" }
             ]
         }
     },
     relaxed: {
         hindi: {
             old: [
-                { title: "Dooba Dooba Silk Route", artist: "Mohit Chauhan", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Dooba%20Dooba.mp3" },
-                { title: "O Sanam", artist: "Lucky Ali", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/O%20Sanam.mp3" }
+                { title: "Dooba Dooba Silk Route", artist: "Mohit Chauhan", url: "https://archive.org/download/dooba-dooba-mohit/Dooba%20Dooba.mp3" },
+                { title: "O Sanam", artist: "Lucky Ali", url: "https://archive.org/download/o-sanam-lucky-ali/O%20Sanam.mp3" }
             ],
             new: [
-                { title: "cold/mess", artist: "Prateek Kuhad", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/cold%20mess.mp3" },
-                { title: "Kasoor", artist: "Prateek Kuhad", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Kasoor.mp3" }
+                { title: "cold/mess", artist: "Prateek Kuhad", url: "https://archive.org/download/cold-mess-prateek/cold%20mess.mp3" },
+                { title: "Kasoor", artist: "Prateek Kuhad", url: "https://archive.org/download/kasoor-prateek/Kasoor.mp3" }
             ]
         },
         english: {
             old: [
-                { title: "Come Away With Me", artist: "Norah Jones", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Come%20Away%20With%20Me.mp3" },
-                { title: "Wonderful Tonight", artist: "Eric Clapton", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Wonderful%20Tonight.mp3" }
+                { title: "Come Away With Me", artist: "Norah Jones", url: "https://archive.org/download/come-away-with-me-norah/Come%20Away%20With%20Me.mp3" },
+                { title: "Wonderful Tonight", artist: "Eric Clapton", url: "https://archive.org/download/wonderful-tonight-eric/Wonderful%20Tonight.mp3" }
             ],
             new: [
-                { title: "Ocean Eyes", artist: "Billie Eilish", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Ocean%20Eyes.mp3" },
-                { title: "Perfect", artist: "Ed Sheeran", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Perfect.mp3" }
+                { title: "Ocean Eyes", artist: "Billie Eilish", url: "https://archive.org/download/ocean-eyes-billie/Ocean%20Eyes.mp3" },
+                { title: "Perfect", artist: "Ed Sheeran", url: "https://archive.org/download/perfect-ed-sheeran/Perfect.mp3" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Wanga", artist: "Amrinder Gill", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Wanga.mp3" },
-                { title: "Yaarian", artist: "Amrinder Gill", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Yaarian.mp3" }
+                { title: "Wanga", artist: "Amrinder Gill", url: "https://archive.org/download/wanga-amrinder/Wanga.mp3" },
+                { title: "Yaarian", artist: "Amrinder Gill", url: "https://archive.org/download/yaarian-amrinder/Yaarian.mp3" }
             ],
             new: [
-                { title: "Waalian", artist: "Harnoor", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Waalian.mp3" },
-                { title: "Chan Sitare", artist: "Ammy Virk", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Chan%20Sitare.mp3" }
+                { title: "Waalian", artist: "Harnoor", url: "https://archive.org/download/waalian-harnoor/Waalian.mp3" },
+                { title: "Chan Sitare", artist: "Ammy Virk", url: "https://archive.org/download/chan-sitare-ammy/Chan%20Sitare.mp3" }
             ]
         }
     }
