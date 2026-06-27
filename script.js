@@ -62,7 +62,8 @@ function processSearch(queryText) {
         displayTitle = "Lofi Study Session";
     } else {
         // Fallback: If they type something totally random, generate a direct native Spotify Search landing card!
-        embedUrl = `https://open.spotify.com/embed/search/${encodeURIComponent(cleanQuery)}`;
+        
+        embedUrl = `https://open.spotify.com/embed/screen/search?q=${encodeURIComponent(cleanQuery)}&utm_source=generator`;
         displayTitle = `Real-time search results for: "${queryText}"`;
     }
 
