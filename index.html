@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Melody - Chatbot Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>🎵 Mood Melody Bot</h2>
+            <p>Tell me how you feel, and I'll give you a song!</p>
+        </div>
+        
+        <div class="chat-box" id="chatBox">
+            <div class="message bot-msg">
+                Hello! I am your musical companion. How is your mood today? (Try typing: Happy, Sad, Energetic, or Relaxed)
+            </div>
+        </div>
+
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Type your mood here..." autocomplete="off">
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
