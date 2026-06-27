@@ -53,7 +53,8 @@ function handleMessage() {
                     <p>I feel you. Here is a song for your mood:</p>
                     <strong>${randomSong.title}</strong>
                     <div class="video-wrapper">
-                        <iframe src="${randomSong.embedUrl}" allowfullscreen></iframe>
+                        // Replace the old iframe line in script.js with this one:
+                        <iframe src="${randomSong.embedUrl}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             `;
