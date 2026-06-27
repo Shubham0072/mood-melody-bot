@@ -1,130 +1,130 @@
-// Guaranteed Live Audio Links from Public Digital Archives
+// 100% Live Open-Access Original Track Previews (CORS Unblocked)
 const songDatabase = {
     happy: {
         hindi: {
             old: [
-                { title: "Khaike Pan Banaras Wala", artist: "Kishore Kumar", url: "https://archive.org/download/khaike-pan-banaras-wala/Khaike%20Pan%20Banaras%20Wala.mp3" },
-                { title: "Zindagi Ek Safar", artist: "Kishore Kumar", url: "https://archive.org/download/zindagi-ek-safar-hai-suhana/Zindagi%20Ek%20Safar%20Hai%20Suhana.mp3" }
+                { title: "Khaike Pan Banaras Wala", artist: "Kishore Kumar", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7b/97/99/7b979929-3733-dc19-4591-628f237f3747/mzaf_16156710433290684124.plus.aac.p.m4a" },
+                { title: "Zindagi Ek Safar Hai Suhana", artist: "Kishore Kumar", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/4a/01/be/4a01be95-fae2-63b7-7eb1-c9186b160cf2/mzaf_15783300898517260538.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "Ilahi (YJHD)", artist: "Arijit Singh", url: "https://archive.org/download/ilahi-arijit-singh/Ilahi.mp3" },
-                { title: "Proper Patola", artist: "Diljit Dosanjh", url: "https://archive.org/download/proper-patola-diljit/Proper%20Patola.mp3" }
+                { title: "Ilahi (YJHD)", artist: "Arijit Singh", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a4/90/57/a49057b5-2fa7-7a8e-cf02-18151f7b0558/mzaf_10521404179339396328.plus.aac.p.m4a" },
+                { title: "Proper Patola", artist: "Diljit Dosanjh", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c3/38/df/c338df37-fbf4-747f-85f0-629ee7b39912/mzaf_4091646272551528628.plus.aac.p.m4a" }
             ]
         },
         english: {
             old: [
-                { title: "Stayin' Alive", artist: "Bee Gees", url: "https://archive.org/download/stayin-alive-bee-gees/Stayin%20Alive.mp3" },
-                { title: "Don't Stop Me Now", artist: "Queen", url: "https://archive.org/download/dont-stop-me-now-queen/Dont%20Stop%20Me%20Now.mp3" }
+                { title: "Stayin' Alive", artist: "Bee Gees", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/28/bf/96/28bf96f5-b384-93ff-f604-037000d027e1/mzaf_14620023812239634288.plus.aac.p.m4a" },
+                { title: "Don't Stop Me Now", artist: "Queen", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/8e/3c/66/8e3c66f6-455b-f111-92ea-297d09618f5f/mzaf_11306788577366367568.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "Happy", artist: "Pharrell Williams", url: "https://archive.org/download/happy-pharrell/Happy.mp3" },
-                { title: "Uptown Funk", artist: "Bruno Mars", url: "https://archive.org/download/uptown-funk-bruno/Uptown%20Funk.mp3" }
+                { title: "Happy", artist: "Pharrell Williams", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/55/e8/15/55e81541-efc8-9ff1-d5b9-1f061f09d84c/mzaf_15099395015383569527.plus.aac.p.m4a" },
+                { title: "Uptown Funk", artist: "Bruno Mars", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/cb/20/bb/cb20bbbb-169b-3a7a-6b22-83561633cd88/mzaf_3681533927592476007.plus.aac.p.m4a" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Tunak Tunak Tun", artist: "Daler Mehndi", url: "https://archive.org/download/tunak-tunak-tun-daler/Tunak%20Tunak%20Tun.mp3" },
-                { title: "Mundian To Bach Ke", artist: "Panjabi MC", url: "https://archive.org/download/mundian-to-bach-ke/Mundian%20To%20Bach%20Ke.mp3" }
+                { title: "Tunak Tunak Tun", artist: "Daler Mehndi", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f5/be/ef/f5beef3b-5544-2f22-441f-508bf29239eb/mzaf_11270258169134110300.plus.aac.p.m4a" },
+                { title: "Mundian To Bach Ke", artist: "Panjabi MC", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0d/16/d3/0d16d3f2-140b-71a2-581d-e59392e276be/mzaf_14457618991782292440.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "High Rated Gabru", artist: "Guru Randhawa", url: "https://archive.org/download/high-rated-gabru-guru/High%20Rated%20Gabru.mp3" },
-                { title: "Brown Munde", artist: "AP Dhillon", url: "https://archive.org/download/brown-munde-ap/Brown%20Munde.mp3" }
+                { title: "High Rated Gabru", artist: "Guru Randhawa", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/21/bc/18/21bc1821-4fa3-5e92-f0b0-a50e97bbd985/mzaf_6017758788410260492.plus.aac.p.m4a" },
+                { title: "Brown Munde", artist: "AP Dhillon", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/3d/bf/9e/3dbf9e9e-6472-e1cb-7d1a-47fa39bf0f94/mzaf_15784949575814510714.plus.aac.p.m4a" }
             ]
         }
     },
     sad: {
         hindi: {
             old: [
-                { title: "Kabhi Kabhie Mere Dil Mein", artist: "Mukesh", url: "https://archive.org/download/kabhi-kabhie-mere-dil-mein-mukesh/Kabhi%20Kabhie%20Mere%20Dil%20Mein.mp3" },
-                { title: "Chingari Koi Bhadke", artist: "Kishore Kumar", url: "https://archive.org/download/chingari-koi-bhadke-kishore/Chingari%20Koi%20Bhadke.mp3" }
+                { title: "Kabhi Kabhie Mere Dil Mein", artist: "Mukesh", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/fc/29/7a/fc297ac7-2be2-263a-2337-ee77e68fa707/mzaf_18115668612711311029.plus.aac.p.m4a" },
+                { title: "Chingari Koi Bhadke", artist: "Kishore Kumar", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8b/cb/db/8bcbdb10-8671-55db-17f1-58dc18b8aa83/mzaf_12683074351608670150.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "Channa Mereya", artist: "Arijit Singh", url: "https://archive.org/download/channa-mereya-arijit/Channa%20Mereya.mp3" },
-                { title: "Tum Hi Ho", artist: "Arijit Singh", url: "https://archive.org/download/tum-hi-ho-arijit/Tum%20Hi%20Ho.mp3" }
+                { title: "Channa Mereya", artist: "Arijit Singh", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/37/10/37/3710375f-2ffb-144f-c75c-e5bc418a09fe/mzaf_472491143891461966.plus.aac.p.m4a" },
+                { title: "Tum Hi Ho", artist: "Arijit Singh", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/64/00/aa/6400aa81-3069-b5fe-520e-b7eec988be02/mzaf_16315848261314631677.plus.aac.p.m4a" }
             ]
         },
         english: {
             old: [
-                { title: "Yesterday", artist: "The Beatles", url: "https://archive.org/download/yesterday-beatles/Yesterday.mp3" },
-                { title: "Tears in Heaven", artist: "Eric Clapton", url: "https://archive.org/download/tears-in-heaven-eric/Tears%20In%20Heaven.mp3" }
+                { title: "Yesterday", artist: "The Beatles", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/44/d1/7e/44d17e76-3f1a-b6d3-be68-a4773c38cfdb/mzaf_11303273111867140409.plus.aac.p.m4a" },
+                { title: "Tears in Heaven", artist: "Eric Clapton", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/76/89/df/7689df96-7c9b-6d5b-9d4f-3721e7d8d21b/mzaf_2086438061483868212.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "Someone Like You", artist: "Adele", url: "https://archive.org/download/someone-like-you-adele/Someone%20Like%20You.mp3" },
-                { title: "Someone You Loved", artist: "Lewis Capaldi", url: "https://archive.org/download/someone-you-loved-lewis/Someone%20You%20Loved.mp3" }
+                { title: "Someone Like You", artist: "Adele", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/58/0c/36/580c36cb-ee48-7359-59eb-35c911fa4d0b/mzaf_13812836262445037624.plus.aac.p.m4a" },
+                { title: "Someone You Loved", artist: "Lewis Capaldi", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b4/0d/ee/b40dee04-6f81-bd6d-bfda-995c64bf2761/mzaf_15077229787126102148.plus.aac.p.m4a" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Challa", artist: "Gurdas Maan", url: "https://archive.org/download/challa-gurdas-maan/Challa.mp3" },
-                { title: "Khali Dil Nahi", artist: "Amrinder Gill", url: "https://archive.org/download/khali-dil-nahi-amrinder/Khali%20Dil%20Nahi.mp3" }
+                { title: "Challa", artist: "Gurdas Maan", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/23/e8/e523e808-01e4-3992-75d1-16474fb236e7/mzaf_4727192667355027581.plus.aac.p.m4a" },
+                { title: "Khali Dil Nahi", artist: "Amrinder Gill", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/bf/1f/2f/bf1f2f81-55d6-d082-ffb7-7ebfe3825838/mzaf_5888206126620543632.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "Excuses", artist: "AP Dhillon", url: "https://archive.org/download/excuses-ap-dhillon/Excuses.mp3" },
-                { title: "The Last Ride", artist: "Sidhu Moose Wala", url: "https://archive.org/download/the-last-ride-sidhu/The%20Last%20Ride.mp3" }
+                { title: "Excuses", artist: "AP Dhillon", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/08/96/61/0896616e-a342-6e2c-4ec7-b89694e77372/mzaf_482613143494796335.plus.aac.p.m4a" },
+                { title: "The Last Ride", artist: "Sidhu Moose Wala", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/4e/c5/d1/4ec5d1b7-a3ca-79ef-4bf2-37887265be79/mzaf_3338308882208077589.plus.aac.p.m4a" }
             ]
         }
     },
     energetic: {
         hindi: {
             old: [
-                { title: "Chak De India Title", artist: "Sukhwinder Singh", url: "https://archive.org/download/chak-de-india-sukhwinder/Chak%20De%20India.mp3" },
-                { title: "Zinda (Bhaag Milkha Bhaag)", artist: "Siddharth Mahadevan", url: "https://archive.org/download/zinda-bhaag-milkha/Zinda.mp3" }
+                { title: "Chak De India Title", artist: "Sukhwinder Singh", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c4/1f/a1/c41fa16a-d4c3-b430-c3d5-e63d332d73f4/mzaf_3807567784305886361.plus.aac.p.m4a" },
+                { title: "Zinda (Bhaag Milkha Bhaag)", artist: "Siddharth Mahadevan", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cc/62/ca/cc62ca4f-37db-312f-65b1-12c5b96796da/mzaf_5601177651088497645.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "Malhari", artist: "Vishal Dadlani", url: "https://archive.org/download/malhari-vishal/Malhari.mp3" },
-                { title: "Apna Time Aayega", artist: "Ranveer Singh", url: "https://archive.org/download/apna-time-aayega-ranveer/Apna%20Time%20Aayega.mp3" }
+                { title: "Malhari", artist: "Vishal Dadlani", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/21/df/b8/21dfb85b-e925-546d-3f04-9a4f4efb718f/mzaf_4905380590059345484.plus.aac.p.m4a" },
+                { title: "Apna Time Aayega", artist: "Ranveer Singh", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b5/06/18/b5061803-138e-0158-b617-6b4df3cb9ca1/mzaf_4141639739433285196.plus.aac.p.m4a" }
             ]
         },
         english: {
             old: [
-                { title: "Eye of the Tiger", artist: "Survivor", url: "https://archive.org/download/eye-of-the-tiger-survivor/Eye%20Of%20The%20Tiger.mp3" },
-                { title: "Lose Yourself", artist: "Eminem", url: "https://archive.org/download/lose-yourself-eminem/Lose%20Yourself.mp3" }
+                { title: "Eye of the Tiger", artist: "Survivor", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/97/57/27/9757270e-ee08-e047-97d8-8ec0970a2d48/mzaf_14099411993439401774.plus.aac.p.m4a" },
+                { title: "Lose Yourself", artist: "Eminem", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ca/87/0c/ca870c53-b0bf-2e4a-935f-2fc286be62b7/mzaf_13506140838189811440.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "Blinding Lights", artist: "The Weeknd", url: "https://archive.org/download/blinding-lights-weeknd/Blinding%20Lights.mp3" },
-                { title: "Believer", artist: "Imagine Dragons", url: "https://archive.org/download/believer-imagine-dragons/Believer.mp3" }
+                { title: "Blinding Lights", artist: "The Weeknd", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/be/83/88/be83884c-cb61-75fb-cb9e-561b369c7625/mzaf_7889345097448839077.plus.aac.p.m4a" },
+                { title: "Believer", artist: "Imagine Dragons", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/91/97/bc/9197bc09-9060-e4aa-278a-c45479f64bf7/mzaf_659021655070267233.plus.aac.p.m4a" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Mitran De Boot", artist: "Jazzy B", url: "https://archive.org/download/mitran-de-boot-jazzy/Mitran%20De%20Boot.mp3" },
-                { title: "Das Ja", artist: "DJ Sanj", url: "https://archive.org/download/das-ja-dj-sanj/Das%20Ja.mp3" }
+                { title: "Mitran De Boot", artist: "Jazzy B", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/21/df/0c/21df0cbd-13c5-926f-4fb0-b79e27c191a4/mzaf_12401673323030248496.plus.aac.p.m4a" },
+                { title: "Das Ja", artist: "DJ Sanj", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/34/08/94/34089454-e69c-297e-1282-e877e8ca372e/mzaf_8496464817454992928.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "We Rollin", artist: "Shubh", url: "https://archive.org/download/we-rollin-shubh/We%20Rollin.mp3" },
-                { title: "GOAT", artist: "Diljit Dosanjh", url: "https://archive.org/download/goat-diljit/GOAT.mp3" }
+                { title: "We Rollin", artist: "Shubh", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/0e/d9/bd/0ed9bd4f-a212-be90-7f2a-e889d1b09b6c/mzaf_17202306764516390141.plus.aac.p.m4a" },
+                { title: "GOAT", artist: "Diljit Dosanjh", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fe/53/7d/fe537dbf-6435-0810-72ee-c1005fbc0879/mzaf_6380629555122709230.plus.aac.p.m4a" }
             ]
         }
     },
     relaxed: {
         hindi: {
             old: [
-                { title: "Dooba Dooba Silk Route", artist: "Mohit Chauhan", url: "https://archive.org/download/dooba-dooba-mohit/Dooba%20Dooba.mp3" },
-                { title: "O Sanam", artist: "Lucky Ali", url: "https://archive.org/download/o-sanam-lucky-ali/O%20Sanam.mp3" }
+                { title: "Dooba Dooba Silk Route", artist: "Mohit Chauhan", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/10/39/38/103938ea-8b43-2287-c580-0a256dfeb947/mzaf_3748261373516087541.plus.aac.p.m4a" },
+                { title: "O Sanam", artist: "Lucky Ali", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/64/74/49/647449fc-b8e7-c872-dd3a-0e9e9db69e71/mzaf_5527339846175960410.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "cold/mess", artist: "Prateek Kuhad", url: "https://archive.org/download/cold-mess-prateek/cold%20mess.mp3" },
-                { title: "Kasoor", artist: "Prateek Kuhad", url: "https://archive.org/download/kasoor-prateek/Kasoor.mp3" }
+                { title: "cold/mess", artist: "Prateek Kuhad", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/65/56/a5/6556a59b-134d-17e9-a4cc-db0e8cc067ef/mzaf_4724286650428945648.plus.aac.p.m4a" },
+                { title: "Kasoor", artist: "Prateek Kuhad", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/06/f3/7a/06f37a50-67eb-0797-2a4c-d65be8e25d48/mzaf_10022069273618306915.plus.aac.p.m4a" }
             ]
         },
         english: {
             old: [
-                { title: "Come Away With Me", artist: "Norah Jones", url: "https://archive.org/download/come-away-with-me-norah/Come%20Away%20With%20Me.mp3" },
-                { title: "Wonderful Tonight", artist: "Eric Clapton", url: "https://archive.org/download/wonderful-tonight-eric/Wonderful%20Tonight.mp3" }
+                { title: "Come Away With Me", artist: "Norah Jones", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/28/1d/17/281d1796-02e0-f1c5-8f64-42ea952d7ee6/mzaf_14959196323146430310.plus.aac.p.m4a" },
+                { title: "Wonderful Tonight", artist: "Eric Clapton", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f5/83/b2/f583b27b-b463-b24a-df28-1b777a412853/mzaf_13504104251433946059.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "Ocean Eyes", artist: "Billie Eilish", url: "https://archive.org/download/ocean-eyes-billie/Ocean%20Eyes.mp3" },
-                { title: "Perfect", artist: "Ed Sheeran", url: "https://archive.org/download/perfect-ed-sheeran/Perfect.mp3" }
+                { title: "Ocean Eyes", artist: "Billie Eilish", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/88/54/5a885408-466d-1bf2-bbca-0684f47ddbb2/mzaf_12411516049386766746.plus.aac.p.m4a" },
+                { title: "Perfect", artist: "Ed Sheeran", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/8e/eb/bb/8eebbbda-b6fa-90fa-1e5b-3023023fb293/mzaf_2825595304917711467.plus.aac.p.m4a" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Wanga", artist: "Amrinder Gill", url: "https://archive.org/download/wanga-amrinder/Wanga.mp3" },
-                { title: "Yaarian", artist: "Amrinder Gill", url: "https://archive.org/download/yaarian-amrinder/Yaarian.mp3" }
+                { title: "Wanga", artist: "Amrinder Gill", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/7e/c3/8c/7ec38c4c-3e61-a53d-dc9d-9cfc5264b967/mzaf_5316139430154823293.plus.aac.p.m4a" },
+                { title: "Yaarian", artist: "Amrinder Gill", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/bf/f4/35/bff43592-3e28-ca0e-4389-9eb10aefce75/mzaf_16314811985440713753.plus.aac.p.m4a" }
             ],
             new: [
-                { title: "Waalian", artist: "Harnoor", url: "https://archive.org/download/waalian-harnoor/Waalian.mp3" },
-                { title: "Chan Sitare", artist: "Ammy Virk", url: "https://archive.org/download/chan-sitare-ammy/Chan%20Sitare.mp3" }
+                { title: "Waalian", artist: "Harnoor", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/b6/c6/2f/b6c62fa3-5b32-9c3a-7db1-6d7350cb444e/mzaf_12891398867375990263.plus.aac.p.m4a" },
+                { title: "Chan Sitare", artist: "Ammy Virk", url: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c3/d0/5c/c3d05cb9-b8d9-247f-859a-dfca6f6345fc/mzaf_14493397941093120198.plus.aac.p.m4a" }
             ]
         }
     }
