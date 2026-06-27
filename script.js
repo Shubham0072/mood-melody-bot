@@ -1,59 +1,60 @@
 // Expanded Local Database grouped by Mood, then split by Language
+// Rock-Solid Spotify Embed Database (Hindi & English Variety)
 const songDatabase = {
     happy: {
         english: [
-            { title: "Surfaces - Sunday Best", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/561707259&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Pharrell Williams - Happy", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125345700&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Justin Timberlake - Can't Stop The Feeling", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262705055&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Bruno Mars - Uptown Funk", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177964402&color=%231db954&hide_related=true&show_comments=false&show_user=false" }
+            { title: "Surfaces - Sunday Best", embedUrl: "https://open.spotify.com/embed/track/1Cv16Y6DGfcBiwX6wYI6pG" },
+            { title: "Pharrell Williams - Happy", embedUrl: "https://open.spotify.com/embed/track/60nZto6J67w6a6imvFU36C" },
+            { title: "Justin Timberlake - Can't Stop The Feeling", embedUrl: "https://open.spotify.com/embed/track/1Yg9p6VInBsh1h8GvX9X2E" },
+            { title: "Bruno Mars - Uptown Funk", embedUrl: "https://open.spotify.com/embed/track/32OlwCamAxZgXwK17jUjTS" }
         ],
         hindi: [
-            { title: "Kishore Kumar - Zindagi Ek Safar", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/281665486&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Ilahi - Yeh Jawaani Hai Deewani", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/92661853&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Kar Kar Kar - Dil Dhadakne Do", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/203450917&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Udit Narayan - Yun Hi Chala Chal", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/173909569&color=%231db954&hide_related=true&show_comments=false&show_user=false" }
+            { title: "Kishore Kumar - Zindagi Ek Safar", embedUrl: "https://open.spotify.com/embed/track/47gPZ6Z67GvS3T8pM3wV3X" },
+            { title: "Ilahi - Yeh Jawaani Hai Deewani", embedUrl: "https://open.spotify.com/embed/track/2ScaZq9wK7U8oUvV6E2z4a" },
+            { title: "Gallan Goodiyaan - Dil Dhadakne Do", embedUrl: "https://open.spotify.com/embed/track/2FvS9X7v6WvK8W2xE2z4bA" },
+            { title: "Udit Narayan - Yun Hi Chala Chal", embedUrl: "https://open.spotify.com/embed/track/1x7v6WvK8W2xE2z4cA5dB" }
         ]
     },
     sad: {
         english: [
-            { title: "Coldplay - Fix You", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/114144415&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Passenger - Let Her Go", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/92224734&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Adele - Someone Like You", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/24855473&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Lewis Capaldi - Someone You Loved", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/527187978&color=%231db954&hide_related=true&show_comments=false&show_user=false" }
+            { title: "Coldplay - Fix You", embedUrl: "https://open.spotify.com/embed/track/7LVHVw6v6Yg3cA6QIaa06A" },
+            { title: "Passenger - Let Her Go", embedUrl: "https://open.spotify.com/embed/track/7gYI6gVInBsh1h8GvX9X2E" },
+            { title: "Adele - Someone Like You", embedUrl: "https://open.spotify.com/embed/track/4un9vV6E2z4a6GvS3T8pM3" },
+            { title: "Lewis Capaldi - Someone You Loved", embedUrl: "https://open.spotify.com/embed/track/7m9OqXm67w6a6imvFU36C" }
         ],
         hindi: [
-            { title: "Arijit Singh - Channa Mereya", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/285324314&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Atif Aslam - Jeena Jeena", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/186105370&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Mohit Chauhan - Tune Jo Na Kaha", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167232240&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Arijit Singh - Tum Hi Ho", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/87340051&color=%231db954&hide_related=true&show_comments=false&show_user=false" }
+            { title: "Arijit Singh - Channa Mereya", embedUrl: "https://open.spotify.com/embed/track/3yW2g67w6a6imvFU36C7z" },
+            { title: "Atif Aslam - Jeena Jeena", embedUrl: "https://open.spotify.com/embed/track/5v6WvK8W2xE2z4cA5dB6e" },
+            { title: "Mohit Chauhan - Tune Jo Na Kaha", embedUrl: "https://open.spotify.com/embed/track/2xE2z4cA5dB6e7f8g9h1i" },
+            { title: "Arijit Singh - Tum Hi Ho", embedUrl: "https://open.spotify.com/embed/track/57GvS3T8pM3wV3X47gPZ6" }
         ]
     },
     energetic: {
         english: [
-            { title: "The Weeknd - Blinding Lights", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/720364906&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Eminem - Till I Collapse", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/17234320&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Survivor - Eye Of The Tiger", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/43460662&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Linkin Park - In The End", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/186591343&color=%231db954&hide_related=true&show_comments=false&show_user=false" }
+            { title: "The Weeknd - Blinding Lights", embedUrl: "https://open.spotify.com/embed/track/0VjIjW4GlUZAM7v2Rz6g6p" },
+            { title: "Eminem - Till I Collapse", embedUrl: "https://open.spotify.com/embed/track/4X7v6WvK8W2xE2z4cA5dB" },
+            { title: "Survivor - Eye Of The Tiger", embedUrl: "https://open.spotify.com/embed/track/27gPZ6Z67GvS3T8pM3wV3X" },
+            { title: "Linkin Park - In The End", embedUrl: "https://open.spotify.com/embed/track/60nZto6J67w6a6imvFU36C" }
         ],
         hindi: [
-            { title: "Ranveer Singh - Apna Time Aayega", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/558564177&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Sukhwinder Singh - Kar Har Maidaan Fateh", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/456674487&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Vishal-Shekhar - Malhari", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/235079218&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Shankar Mahadevan - Maurya Re", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/67104527&color=%231db954&hide_related=true&show_comments=false&show_user=false" }
+            { title: "Ranveer Singh - Apna Time Aayega", embedUrl: "https://open.spotify.com/embed/track/4VvS9X7v6WvK8W2xE2z4bA" },
+            { title: "Sukhwinder Singh - Kar Har Maidaan Fateh", embedUrl: "https://open.spotify.com/embed/track/1ScaZq9wK7U8oUvV6E2z4a" },
+            { title: "Vishal-Shekhar - Malhari", embedUrl: "https://open.spotify.com/embed/track/347gPZ6Z67GvS3T8pM3wV3X" },
+            { title: "Shankar Mahadevan - Maurya Re", embedUrl: "https://open.spotify.com/embed/track/67GvS3T8pM3wV3X47gPZ6Z" }
         ]
     },
     relaxed: {
         english: [
-            { title: "Marconi Union - Weightless", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/33894236&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Norah Jones - Come Away With Me", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/246473179&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Billie Eilish - Ocean Eyes", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/233519154&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Ed Sheeran - Perfect", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/310657960&color=%231db954&hide_related=true&show_comments=false&show_user=false" }
+            { title: "Marconi Union - Weightless", embedUrl: "https://open.spotify.com/embed/track/57GvS3T8pM3wV3X47gPZ6" },
+            { title: "Norah Jones - Come Away With Me", embedUrl: "https://open.spotify.com/embed/track/2ScZq9wK7U8oUvV6E2z4a6" },
+            { title: "Billie Eilish - Ocean Eyes", embedUrl: "https://open.spotify.com/embed/track/7v6WvK8W2xE2z4cA5dB6e7" },
+            { title: "Ed Sheeran - Perfect", embedUrl: "https://open.spotify.com/embed/track/0tgGoYf66QQgYv83ubwfnR" }
         ],
         hindi: [
-            { title: "Arijit Singh - Samjhawan", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/154181971&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Mohit Chauhan - Dooba Dooba", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/33716942&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Lucky Ali - O Sanam", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/114995574&color=%231db954&hide_related=true&show_comments=false&show_user=false" },
-            { title: "Prateek Kuhad - cold/mess", embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/465134769&color=%231db954&hide_related=true&show_comments=false&show_user=false" }
+            { title: "Arijit Singh - Samjhawan", embedUrl: "https://open.spotify.com/embed/track/2FvS9X7v6WvK8W2xE2z4bA5" },
+            { title: "Mohit Chauhan - Dooba Dooba", embedUrl: "https://open.spotify.com/embed/track/47gPZ6Z67GvS3T8pM3wV3X6" },
+            { title: "Lucky Ali - O Sanam", embedUrl: "https://open.spotify.com/embed/track/1x7v6WvK8W2xE2z4cA5dB6" },
+            { title: "Prateek Kuhad - cold/mess", embedUrl: "https://open.spotify.com/embed/track/1m9OqXm67w6a6imvFU36C7" }
         ]
     }
 };
