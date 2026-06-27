@@ -1,135 +1,134 @@
-// High-Scale Structured Database across Moods, Languages, and Eras
+// High-Scale Structured Database with Verified Real Audio Streaming Links
 const songDatabase = {
     happy: {
         hindi: {
             old: [
-                { title: "Zindagi Ek Safar Hai Suhana", artist: "Kishore Kumar", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
-                { title: "Khaike Pan Banaraswala", artist: "Kishore Kumar", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" }
+                { title: "Khaike Pan Banaraswala", artist: "Kishore Kumar", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Khaike%20Pan%20Banaras%20Wala.mp3" },
+                { title: "Zindagi Ek Safar Hai Suhana", artist: "Kishore Kumar", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Zindagi%20Ek%20Safar%20Hai%20Suhana.mp3" }
             ],
             new: [
-                { title: "Ilahi (Yeh Jawaani Hai Deewani)", artist: "Arijit Singh", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
-                { title: "Proper Patola", artist: "Diljit Dosanjh", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" }
+                { title: "Ilahi (YJHD)", artist: "Arijit Singh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Ilahi.mp3" },
+                { title: "Proper Patola", artist: "Diljit Dosanjh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Proper%20Patola.mp3" }
             ]
         },
         english: {
             old: [
-                { title: "Don't Stop Me Now", artist: "Queen", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
-                { title: "Stayin' Alive", artist: "Bee Gees", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" }
+                { title: "Stayin' Alive", artist: "Bee Gees", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Stayin%20Alive.mp3" },
+                { title: "Don't Stop Me Now", artist: "Queen", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Dont%20Stop%20Me%20Now.mp3" }
             ],
             new: [
-                { title: "Happy", artist: "Pharrell Williams", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
-                { title: "Uptown Funk", artist: "Bruno Mars", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" }
+                { title: "Happy", artist: "Pharrell Williams", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Happy.mp3" },
+                { title: "Uptown Funk", artist: "Bruno Mars", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Uptown%20Funk.mp3" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Tunak Tunak Tun", artist: "Daler Mehndi", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3" },
-                { title: "Mundian To Bach Ke", artist: "Panjabi MC", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3" }
+                { title: "Tunak Tunak Tun", artist: "Daler Mehndi", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Tunak%20Tunak%20Tun.mp3" },
+                { title: "Mundian To Bach Ke", artist: "Panjabi MC", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Mundian%20To%20Bach%20Ke.mp3" }
             ],
             new: [
-                { title: "High Rated Gabru", artist: "Guru Randhawa", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3" },
-                { title: "Brown Munde", artist: "AP Dhillon", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3" }
+                { title: "High Rated Gabru", artist: "Guru Randhawa", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/High%20Rated%20Gabru.mp3" },
+                { title: "Brown Munde", artist: "AP Dhillon", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Brown%20Munde.mp3" }
             ]
         }
     },
     sad: {
         hindi: {
             old: [
-                { title: "Chingari Koi Bhadke", artist: "Kishore Kumar", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3" },
-                { title: "Kabhi Kabhie Mere Dil Mein", artist: "Mukesh", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3" }
+                { title: "Kabhi Kabhie Mere Dil Mein", artist: "Mukesh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Kabhi%20Kabhie%20Mere%20Dil%20Mein.mp3" },
+                { title: "Chingari Koi Bhadke", artist: "Kishore Kumar", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Chingari%20Koi%20Bhadke.mp3" }
             ],
             new: [
-                { title: "Channa Mereya", artist: "Arijit Singh", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3" },
-                { title: "Tum Hi Ho", artist: "Arijit Singh", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3" }
+                { title: "Channa Mereya", artist: "Arijit Singh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Channa%20Mereya.mp3" },
+                { title: "Tum Hi Ho", artist: "Arijit Singh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Tum%20Hi%20Ho.mp3" }
             ]
         },
         english: {
             old: [
-                { title: "Yesterday", artist: "The Beatles", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
-                { title: "Tears in Heaven", artist: "Eric Clapton", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" }
+                { title: "Yesterday", artist: "The Beatles", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Yesterday.mp3" },
+                { title: "Tears in Heaven", artist: "Eric Clapton", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Tears%20In%20Heaven.mp3" }
             ],
             new: [
-                { title: "Someone Like You", artist: "Adele", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
-                { title: "Someone You Loved", artist: "Lewis Capaldi", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" }
+                { title: "Someone Like You", artist: "Adele", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Someone%20Like%20You.mp3" },
+                { title: "Someone You Loved", artist: "Lewis Capaldi", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Someone%20You%20Loved.mp3" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Challa", artist: "Gurdas Maan", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
-                { title: "Khali Dil Nahi", artist: "Amrinder Gill", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" }
+                { title: "Challa", artist: "Gurdas Maan", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Challa.mp3" },
+                { title: "Khali Dil Nahi", artist: "Amrinder Gill", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Khali%20Dil%20Nahi.mp3" }
             ],
             new: [
-                { title: "Excuses", artist: "AP Dhillon", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
-                { title: "Clicc", artist: "Sidhu Moose Wala", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" }
+                { title: "Excuses", artist: "AP Dhillon", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Excuses.mp3" },
+                { title: "The Last Ride", artist: "Sidhu Moose Wala", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/The%20Last%20Ride.mp3" }
             ]
         }
     },
     energetic: {
         hindi: {
             old: [
-                { title: "Chak De India Title Track", artist: "Sukhwinder Singh", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3" },
-                { title: "Zinda (Bhaag Milkha Bhaag)", artist: "Siddharth Mahadevan", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3" }
+                { title: "Chak De India Title", artist: "Sukhwinder Singh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Chak%20De%20India.mp3" },
+                { title: "Zinda (Bhaag Milkha Bhaag)", artist: "Siddharth Mahadevan", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Zinda.mp3" }
             ],
             new: [
-                { title: "Malhari", artist: "Vishal Dadlani", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3" },
-                { title: "Apna Time Aayega", artist: "Ranveer Singh", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3" }
+                { title: "Malhari", artist: "Vishal Dadlani", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Malhari.mp3" },
+                { title: "Apna Time Aayega", artist: "Ranveer Singh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Apna%20Time%20Aayega.mp3" }
             ]
         },
         english: {
             old: [
-                { title: "Eye of the Tiger", artist: "Survivor", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3" },
-                { title: "Lose Yourself", artist: "Eminem", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3" }
+                { title: "Eye of the Tiger", artist: "Survivor", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Eye%20Of%20The%20Tiger.mp3" },
+                { title: "Lose Yourself", artist: "Eminem", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Lose%20Yourself.mp3" }
             ],
             new: [
-                { title: "Blinding Lights", artist: "The Weeknd", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3" },
-                { title: "Believer", artist: "Imagine Dragons", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3" }
+                { title: "Blinding Lights", artist: "The Weeknd", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Blinding%20Lights.mp3" },
+                { title: "Believer", artist: "Imagine Dragons", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Believer.mp3" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Mitran De Boot", artist: "Jazzy B", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
-                { title: "Das Ja", artist: "DJ Sanj", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" }
+                { title: "Mitran De Boot", artist: "Jazzy B", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Mitran%20De%20Boot.mp3" },
+                { title: "Das Ja", artist: "DJ Sanj", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Das%20Ja.mp3" }
             ],
             new: [
-                { title: "The Last Ride", artist: "Sidhu Moose Wala", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
-                { title: "We Rollin", artist: "Shubh", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" }
+                { title: "We Rollin", artist: "Shubh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/We%20Rollin.mp3" },
+                { title: "GOAT", artist: "Diljit Dosanjh", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/GOAT.mp3" }
             ]
         }
     },
     relaxed: {
         hindi: {
             old: [
-                { title: "Dooba Dooba Silk Route", artist: "Mohit Chauhan", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
-                { title: "O Sanam", artist: "Lucky Ali", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" }
+                { title: "Dooba Dooba Silk Route", artist: "Mohit Chauhan", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Dooba%20Dooba.mp3" },
+                { title: "O Sanam", artist: "Lucky Ali", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/O%20Sanam.mp3" }
             ],
             new: [
-                { title: "cold/mess", artist: "Prateek Kuhad", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
-                { title: "Kasoor", artist: "Prateek Kuhad", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" }
+                { title: "cold/mess", artist: "Prateek Kuhad", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/cold%20mess.mp3" },
+                { title: "Kasoor", artist: "Prateek Kuhad", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Kasoor.mp3" }
             ]
         },
         english: {
             old: [
-                { title: "Come Away With Me", artist: "Norah Jones", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3" },
-                { title: "Wonderful Tonight", artist: "Eric Clapton", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3" }
+                { title: "Come Away With Me", artist: "Norah Jones", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Come%20Away%20With%20Me.mp3" },
+                { title: "Wonderful Tonight", artist: "Eric Clapton", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Wonderful%20Tonight.mp3" }
             ],
             new: [
-                { title: "Ocean Eyes", artist: "Billie Eilish", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3" },
-                { title: "Perfect", artist: "Ed Sheeran", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3" }
+                { title: "Ocean Eyes", artist: "Billie Eilish", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Ocean%20Eyes.mp3" },
+                { title: "Perfect", artist: "Ed Sheeran", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Perfect.mp3" }
             ]
         },
         punjabi: {
             old: [
-                { title: "Wanga", artist: "Amrinder Gill", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3" },
-                { title: "Yaarian", artist: "Amrinder Gill", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3" }
+                { title: "Wanga", artist: "Amrinder Gill", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Wanga.mp3" },
+                { title: "Yaarian", artist: "Amrinder Gill", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Yaarian.mp3" }
             ],
             new: [
-                { title: "Waalian", artist: "Harnoor", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3" },
-                { title: "Chan Sitare", artist: "Ammy Virk", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3" }
+                { title: "Waalian", artist: "Harnoor", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Waalian.mp3" },
+                { title: "Chan Sitare", artist: "Ammy Virk", url: "https://pub-c5e31b5cdafb419a86a69d5d340a1b6c.r2.dev/Chan%20Sitare.mp3" }
             ]
         }
     }
 };
-
 const audioPlayer = new Audio();
 const chatBox = document.getElementById("chatBox");
 const userInput = document.getElementById("userInput");
