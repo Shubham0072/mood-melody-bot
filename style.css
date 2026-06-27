@@ -128,3 +128,21 @@ body {
     border-color: #1db954;
     transform: translateY(-2px);
 }
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* Perfect 16:9 cinematic aspect ratio */
+    margin-top: 8px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #000000;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
